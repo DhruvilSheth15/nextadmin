@@ -6,7 +6,6 @@ import { usePathname } from 'next/navigation'
 
 const MenuLink = ({item}) => {
 
-  // Need to understand usePathname() next.js hook
   const pathname = usePathname()
 
   return (
